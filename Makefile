@@ -13,6 +13,7 @@ source_tool:
 	cc src/source.c -o bin/source_tool
 
 sink_tool:
+	cc src/sink.c -o bin/sink_tool
 
 sponge_tool:
 
