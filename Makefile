@@ -20,6 +20,7 @@ sponge_tool:
 compiler_tool:
 
 ed_tool:
+	cc src/ed.c -o bin/ed_tool
 
 roguelike_tool:
 
