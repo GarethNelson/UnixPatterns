@@ -21,3 +21,7 @@ For the hell of it, implementation of some unix design patterns inspired by ESR'
 
 Partly boredom, and partly because these patterns are useful and so it makes sense to have some templates.
 
+# Some notes
+
+All the tools included are intentionally written to be as portable as possible and should compile cleanly just by running "make all", if they fail to compile please
+submit an issue.
