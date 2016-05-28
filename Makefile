@@ -10,6 +10,7 @@ cantrip_tool:
 	cc src/cantrip.c -o bin/cantrip_tool
 
 source_tool:
+	cc src/source.c -o bin/source_tool
 
 sink_tool:
 
