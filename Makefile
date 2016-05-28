@@ -16,6 +16,7 @@ sink_tool:
 	cc src/sink.c -o bin/sink_tool
 
 sponge_tool:
+	cc src/sponge.c -o bin/sponge_tool
 
 compiler_tool:
 
