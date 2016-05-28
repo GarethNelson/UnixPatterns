@@ -19,6 +19,7 @@ sponge_tool:
 	cc src/sponge.c -o bin/sponge_tool
 
 compiler_tool:
+	cc src/compiler.c -o bin/compiler_tool
 
 ed_tool:
 	cc src/ed.c -o bin/ed_tool
