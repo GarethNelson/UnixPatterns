@@ -42,10 +42,6 @@ static void finish(int sig);
 // Here we interpret the commands and do stuff
 char* cmd_proc(char cmd) {
       char* retval = "?\n"; // Standard response if the command doesn't match
-      char new_retval[1024]; // Buffer used for responses
-      int a,b;
-      int s_err=0;
-      char tmp;
       switch(cmd) {
          case CMD_QUIT:
           finish(0);
