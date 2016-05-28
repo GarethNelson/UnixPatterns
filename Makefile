@@ -25,5 +25,5 @@ ed_tool:
 	cc src/ed.c -o bin/ed_tool
 
 roguelike_tool:
-
+	cc -g src/roguelike.c -lcurses -o bin/roguelike_tool
 
